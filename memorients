@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+<meta name="web-app/config/environment" content="%7B%22modulePrefix%22%3A%22web-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22HOST_NAME%22%3A%22https%3A%2F%2Fmemorients.com%22%2C%22ASSET_HOST_NAME%22%3A%22https%3A%2F%2Fasset.memorients.com%22%2C%22STATIC_HOST_NAME%22%3A%22https%3A%2F%2Fstatic.memorients.com%22%2C%22STORAGE_ENDPOINT%22%3A%22https%3A%2F%2Fmemorients.s3.eu-west-2.amazonaws.com%22%2C%22contentSecurityPolicy%22%3A%7B%22connect-src%22%3A%5B%22'self'%22%2C%22https%3A%2F%2Fsentry.io%2Fapi%2F%22%2C%22https%3A%2F%2Fwww.google-analytics.com%22%2C%22https%3A%2F%2Fmemorients.s3.eu-west-2.amazonaws.com%22%5D%2C%22script-src%22%3A%5B%22'self'%22%2C%22'sha256-LanMyLLadI45wTnq5Tl0JTN1WTfuxUJYoFj1aDjfo10%3D'%22%2C%22https%3A%2F%2Fwww.google-analytics.com%22%2C%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2F%22%2C%22https%3A%2F%2Fwww.gstatic.com%2Frecaptcha%2F%22%5D%2C%22frame-src%22%3A%5B%22https%3A%2F%2Fwww.google.com%2Frecaptcha%2F%22%2C%22https%3A%2F%2Fwww.youtube.com%22%5D%2C%22font-src%22%3A%5B%22'self'%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22data%3A%22%2C%22https%3A%2F%2Fmemorients.s3.eu-west-2.amazonaws.com%22%2C%22https%3A%2F%2Fstatic.memorients.com%22%2C%22https%3A%2F%2Fsource.unsplash.com%22%2C%22https%3A%2F%2Fimages.unsplash.com%22%5D%2C%22manifest-src%22%3A%5B%22'self'%22%5D%2C%22default-src%22%3A%5B%22'none'%22%5D%2C%22media-src%22%3A%5B%22'self'%22%5D%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%22memorients.com%22%5D%7D%2C%22ember-g-recaptcha%22%3A%7B%22sitekey%22%3A%226Leg9e4UAAAAAIS24HkHv-rwsV4Q2dRpJYoWj1DN%22%7D%2C%22ember-simple-auth-token%22%3A%7B%22serverTokenEndpoint%22%3A%22https%3A%2F%2Fmemorients.com%2Fapi%2Ftokens%22%2C%22tokenPropertyName%22%3A%22data.attributes.token%22%2C%22refreshAccessTokens%22%3Afalse%7D%2C%22ember-validated-form%22%3A%7B%22theme%22%3A%22bootstrap%22%7D%2C%22sentry%22%3A%7B%22dsn%22%3A%22https%3A%2F%2F3371772853b1de230f4e500902ebc641%40o4505852303048704.ingest.sentry.io%2F4505979816443904%22%7D%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22development%22%2C%22production%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-146433670-2%22%2C%22debug%22%3Afalse%2C%22trace%22%3Afalse%2C%22sendHitTask%22%3Atrue%2C%22require%22%3A%5B%5D%7D%7D%5D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22web-app%22%2C%22version%22%3A%220.0.0%22%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy%22%2C%22ember-cli-mirage%22%3A%7B%22enabled%22%3Afalse%2C%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-modal-dialog%22%3A%7B%7D%2C%22historySupportMiddleware%22%3Atrue%7D" />
+<!-- EMBER_CLI_FASTBOOT_TITLE -->  <meta name="ember-cli-head-start" content>  <title id="ember3206574" class="ember-view">Blog | MEMOs
+</title>
+  <meta id="ember3206575" name="description" content="Blogs written by our team of researchers, curators and guest contributors." class="ember-view">
+
+  <link id="ember3206576" rel="canonical" href="https://memorients.com/blog" class="ember-view">
+
+  <meta id="ember3206577" property="og:site_name" content="MEMOs" class="ember-view">
+
+  <meta id="ember3206578" property="og:title" content="Blog | MEMOs" class="ember-view">
+
+  <meta id="ember3206579" property="og:description" content="Blogs written by our team of researchers, curators and guest contributors." class="ember-view">
+
+  <meta id="ember3206580" property="og:url" content="https://memorients.com/blog" class="ember-view">
+
+  <meta id="ember3206581" property="og:type" content="article" class="ember-view">
+
+  <meta id="ember3206582" property="og:image" content="https://asset.memorients.com/assets/images/unhashed/logo-banner.png" class="ember-view">
+
+  <meta id="ember3206583" property="og:image:width" content="1200" class="ember-view">
+
+  <meta id="ember3206584" property="og:image:height" content="650" class="ember-view">
+
+  <meta id="ember3206585" name="twitter:site" content="@MEMOrients" class="ember-view">
+
+  <meta id="ember3206586" name="twitter:card" content="summary_large_image" class="ember-view">
+
+
+<meta name="ember-cli-head-end" content>
+
+<meta name="theme-color" content="#591731">
+<link rel="apple-touch-icon" href="https://asset.memorients.com/assets/images/logos/memos-icon-280-46a449e484b0bd165c080685440b250d.png" sizes="280x280">
+<link rel="apple-touch-icon" href="https://asset.memorients.com/assets/images/logos/memos-icon-192-b0ff95c0c15667c52fe214299c502d12.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://asset.memorients.com/assets/images/logos/memos-icon-280-46a449e484b0bd165c080685440b250d.png" sizes="280x280">
+<link rel="apple-touch-icon" href="https://asset.memorients.com/assets/images/logos/memos-icon-512-f884d8967deae0d3d83b739dd2512721.png" sizes="512x512">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MEMOs">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="icon" href="https://asset.memorients.com/assets/images/logos/memos-icon-32-09ab593fd353c77c2737a4f2d840e83b.png" sizes="32x32">
+
+    <link rel="manifest" href="https://asset.memorients.com/manifest-904ca188ef4362184d5e2015d629c073.webmanifest">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+
+    <link integrity="" rel="stylesheet" href="https://asset.memorients.com/assets/vendor-a15e4c7d4640cd6577874f72269294c9.css">
+    <link integrity="" rel="stylesheet" href="https://asset.memorients.com/assets/web-app-7b161dd3c072564e6efd5d502d425e0f.css">
+
+    
+  </head>
+  <body>
+    <script type="x/boundary" id="fastboot-body-start"></script><!---->
+
+<main class="_main_djt480">
+  <div class="_container_djt480">
+      <div class="custom-scrollbar _container_rmxzm7">
+  <div class="_container_jwrn5b">
+  <a href="/" id="ember3206587" class="ember-view">
+    <img class="_logo-image_jwrn5b" src="https://asset.memorients.com/assets/images/logos/memos-logo-3edc8d2246143bf3d29ddc7caa2a3c1b.svg" alt="icon">
+  </a>
+
+  <a href="/" id="ember3206588" class="ember-view">
+    <div class="_logo-text_jwrn5b">
+      <span class="_text-MEMO_jwrn5b">MEMOs</span>
+      <span class="_text-rest_jwrn5b">
+        <div>Medieval and Early</div>
+        <div>Modern Orients</div>
+      </span>
+    </div>
+  </a>
+
+  <div class="_mobile-menu_jwrn5b">
+    <img src="https://asset.memorients.com/assets/images/others/memo-menu-icon-69086166c09fe9b257195ff55ff36278.svg" alt="icon">
+  </div>
+</div>
+
+  <div class="_nav-links_rmxzm7">
+    <a href="/" id="ember3206589" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+      HOME
+    </a>
+
+    <div class="_group_rmxzm7">
+      <a href="/ottoman-empire" id="ember3206590" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        <strong>OTTOMAN</strong>
+      </a>
+
+      <a href="/safavid-empire" id="ember3206591" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        <strong>SAFAVID</strong>
+      </a>
+
+      <a href="/mughal-empire" id="ember3206592" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        <strong>MUGHAL</strong>
+      </a>
+
+      <a href="/maghreb-and-al-andalus" id="ember3206593" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        <strong>MAGHREB &amp; <span class="_nowrap_rmxzm7">AL-ANDALUS</span></strong>
+      </a>
+    </div>
+
+    <div class="_group_rmxzm7">
+      <a href="/projects" id="ember3206594" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        PROJECTS
+      </a>
+
+      <a href="/blog" id="ember3206595" class="active ember-view sidebar-nav-item _nav-item_rmxzm7">
+        BLOG
+      </a>
+
+      <a href="/news" id="ember3206596" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        NEWS
+      </a>
+
+      <a href="/events" id="ember3206597" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        EVENTS
+      </a>
+    </div>
+
+    <div class="_group_rmxzm7">
+      <a href="/team" id="ember3206598" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        TEAM
+      </a>
+
+      <a href="/about" id="ember3206599" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        ABOUT
+      </a>
+
+      <a href="/join" id="ember3206600" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        JOIN
+      </a>
+
+      <a href="/submissions" id="ember3206601" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        SUBMISSIONS
+      </a>
+    </div>
+
+    <div class="_group_rmxzm7">
+      <a href="/search" id="ember3206602" class="ember-view sidebar-nav-item _nav-item_rmxzm7">
+        SEARCH
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="_placeholder_rmxzm7"></div>
+
+      <div class="_desktop-content_djt480">
+        <div class="_desktop-outlet_djt480">
+          <div class="_container_wbdyit _compact-container_7epux2">
+  <h5 class="_text-container_1qc4dl">
+  
+    MEMOs blogs present the findings and thoughts of our team of specialists and
+    guest bloggers. If you would like to submit a blog, please visit our
+    <a href="/submissions" id="ember3206603" class="ember-view">Submissions</a>
+    page.
+  
+</h5>
+
+  <div>
+      
+      <div class="_container_1bua10" style="padding-bottom: 40.00%;">
+  
+    <div class="_spinner-wrapper_sgdaja">
+      <div class="_loading-spinner_az7l0t">
+  <div class="_wrapper_az7l0t">
+    <div class="_ball_az7l0t _ball-one_az7l0t"></div>
+    <div class="_ball_az7l0t _ball-two_az7l0t"></div>
+    <div class="_ball_az7l0t _ball-three_az7l0t"></div>
+  </div>
+</div>
+    </div>
+  
+</div>
+
+
+    <!---->
+  
+</div>
+</div>
+        </div>
+
+        <footer class="_wrapper_smfywj" role="contentinfo" aria-label="desktop-footer">
+  <div class="_container_smfywj _compact-container_7epux2">
+    <div class="_email-subscribe_smfywj">
+      <div class="_subscription_14lcnk">
+    <form>
+      <div class="input-group">
+        <input id="subscription-email" value placeholder="your@email.com" class="form-control" type="email">
+
+        <div class="input-group-append">
+          <button class="btn _button_14lcnk" type="submit">
+              <span>Subscribe</span>
+          </button>
+        </div>
+      </div>
+
+<!---->
+<!---->
+      <div class="_recaptcha-disclaimer_14lcnk">
+        This site is protected by reCAPTCHA and the Google
+        <a href="https://policies.google.com/privacy">Privacy Policy</a>
+        and
+        <a href="https://policies.google.com/terms">Terms of Service</a>
+        apply.
+      </div>
+    </form>
+</div>
+    </div>
+
+    <div class="_content_smfywj">
+      <div class="_left-wrapper_smfywj">
+        <div class="_funded-by-wrapper_smfywj">
+          <span class="_developed-by-text_smfywj">Funded by:</span>
+
+          <span>
+            <a class="_link_smfywj" href="http://www.nwcdtp.ac.uk/" title="North West Consortium Doctoral Training Partnership" target="_blank" rel="noopener noreferrer">
+              AHRC NWCDTP
+            </a>
+          </span>
+        </div>
+
+        <div class="_developed-by-wrapper_smfywj">
+          <span class="_developed-by-text_smfywj">Developed by:</span>
+
+          <span>
+            <a class="_link_smfywj" href="https://corpovisuals.com" target="_blank" rel="noopener noreferrer">
+              Corpovisuals
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <div class="_right-wrapper_smfywj">
+        <div class="_copyright-text_smfywj">
+          © Medieval and Early Modern Orients. All rights reserved.
+        </div>
+      </div>
+
+      <div class="_middle-wrapper_smfywj">
+        <div class="_social-media_smfywj">
+          <span>
+            <a class="_social-media-link_smfywj" href="https://twitter.com/memorients" title="MEMOs Twitter Page" target="_blank" rel="noopener noreferrer">
+              <svg style="transform-origin: 0.4375em 0.5em;" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false" aria-hidden="true" data-icon="twitter-square" data-prefix="fab" id="ember3206604" class="svg-inline--fa fa-twitter-square fa-w-14 fa-2x ember-view"><g transform="translate(224 256)"><g transform="translate(0, 0)  scale(0.6875, 0.6875)  rotate(0 0 0)"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" transform="translate(-224 -256)"></path></g></g>
+</svg>
+            </a>
+          </span>
+
+          <span class="pl-1 pr-1">
+            <a class="_social-media-link_smfywj" href="https://facebook.com/memorients" title="MEMOs Facebook Page" target="_blank" rel="noopener noreferrer">
+              <svg style="transform-origin: 0.4375em 0.5em;" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false" aria-hidden="true" data-icon="facebook-square" data-prefix="fab" id="ember3206605" class="svg-inline--fa fa-facebook-square fa-w-14 fa-2x ember-view"><g transform="translate(224 256)"><g transform="translate(0, 0)  scale(0.6875, 0.6875)  rotate(0 0 0)"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" transform="translate(-224 -256)"></path></g></g>
+</svg>
+            </a>
+          </span>
+
+          <span>
+            <a class="_social-media-link_smfywj" href="https://www.instagram.com/thememorients/" title="MEMOs Instagram Page" target="_blank" rel="noopener noreferrer">
+              <svg style="transform-origin: 0.4375em 0.5em;" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false" aria-hidden="true" data-icon="instagram-square" data-prefix="fab" id="ember3206606" class="svg-inline--fa fa-instagram-square fa-w-14 fa-2x ember-view"><g transform="translate(224 256)"><g transform="translate(0, 0)  scale(0.6875, 0.6875)  rotate(0 0 0)"><path fill="currentColor" d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z" transform="translate(-224 -256)"></path></g></g>
+</svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+      </div>
+  </div>
+</main>
+
+<div data-test-notification-container="bottom-right" style="z-index: 1060;" id="ember3206607" class="ember-cli-notifications-notification__container--bottom-right ember-cli-notifications-notification__container ember-view"><!----></div><script type="fastboot/shoebox" id="shoebox-ember-data-storefront">{"queries":{}}</script><script type="x/boundary" id="fastboot-body-end"></script>
+
+    <script src="https://asset.memorients.com/assets/vendor-b056df8466e162c6e3da980acedef203.js"></script>
+    <script src="https://asset.memorients.com/assets/web-app-5d0e60b3f05a617c2ba51c6ca0b2669b.js"></script>
+
+    <div id="ember-bootstrap-wormhole"></div>
+<script>!function(){"use strict";var e=[],r=[];"serviceWorker"in navigator&&navigator.serviceWorker.register("/sw.js",{scope:"/"}).then((function(r){for(var n=Promise.resolve(),o=function(o,t){n=n.then((function(){return e[o](r)}))},t=0,i=e.length;t<i;t++)o(t);return n.then((function(){console.log("Service Worker registration succeeded. Scope is "+r.scope)}))})).catch((function(e){for(var n=Promise.resolve(),o=function(o,t){n=n.then((function(){return r[o](e)}))},t=0,i=r.length;t<i;t++)o(t);return n.then((function(){console.log("Service Worker registration failed with "+e)}))}))}();
+//# sourceMappingURL=sw-registration.map</script>
+<div id="ember-basic-dropdown-wormhole"></div>
+  </body>
+</html>
